@@ -846,6 +846,4 @@ section {
     text-transform: uppercase;
     color: var(--muted);
 }
-.desktop-only {
-    display: block;
-}
+
