@@ -1037,3 +1037,11 @@ section {
         letter-spacing: 0.16em;
     }
 }
+
+/* 狭い端末（360px級Android等）でナビを1行に保つため、ヘッダーの左右余白だけ詰める */
+@media (max-width: 400px) {
+    .page-header {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
